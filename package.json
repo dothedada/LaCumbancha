@@ -1,24 +1,24 @@
 {
-  "name": "battleshiptdd",
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite --port 4000 --open",
-    "build": "vite build",
-    "preview": "vite preview",
-    "watch-commonJS": "jest --watch *.js",
-    "test-commonJS": "jest",
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
-    "watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch *.js",
-    "publish": "git subtree push --prefix dist origin gh-pages"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "1.8.1",
-    "globals": "^15.4.0",
-    "jest": "^29.7.0",
-    "prettier": "^3.3.2",
-    "vite": "^5.2.0",
-    "vite-plugin-html": "^3.2.2",
-    "vite-plugin-inspect": "^0.8.4"
-  }
+    "name": "battleshiptdd",
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite --port 4000 --open",
+        "build": "vite build",
+        "preview": "vite preview",
+        "watch-commonJS": "jest --watch *.js",
+        "test-commonJS": "jest",
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+        "watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch *.js",
+        "publish": "git subtree push --prefix docs origin gh-pages"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "1.8.1",
+        "globals": "^15.4.0",
+        "jest": "^29.7.0",
+        "prettier": "^3.3.2",
+        "vite": "^5.2.0",
+        "vite-plugin-html": "^3.2.2",
+        "vite-plugin-inspect": "^0.8.4"
+    }
 }

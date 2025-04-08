@@ -3,7 +3,7 @@ import { createHtmlPlugin } from 'vite-plugin-html';
 
 export default {
     publicDir: './src/public/',
-    base: '/batttleship-top/',
+    base: '/LaCumbancha/',
     plugins: [
         Inspect(),
         createHtmlPlugin({
